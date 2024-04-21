@@ -10,51 +10,61 @@
 <body>
 
     <header>
-        <div class="inline-block logo">
-            <img class="logo" src="./assets/Logo RedBold.png"><!--add image of logo here-->
-        </div>
-        <nav class="inline-block">
-            <ul>
-                <li>
+        <nav class=" NavBar">
+            <ul class="NavBarUl">
+                <li class="NavBarLi">
                     About
                 </li>
-                <li>
-                    Skills
+                <li class="NavBarLi">
+                    Case Studies
                 </li>
-                <li>
-                    Work
+                <li class="NavBarLi">
+                    Coding Projects
                 </li>
-                <li>
+                <li class="NavBarLi">
                     Contact
                 </li>
             </ul>
         </nav>
+
+
+
+        <div class="inline-block logo">
+           <img class="logo" src="./assets/Red Logo.png" alt="logo" height="120px">
+        </div>
     </header>
 
-    <section class="heroImg">
-        <div class="content">
-            <img class ="headshot" src="./assets/HeadshotCircleRed.png" alt="headshot"/>
-            <p>
+  
+    <section class="content">
+        <div class="mainBio">
+            <div>
+            <img id ="headshot" src="./assets/HeadshotCircleRed.png" alt="headshot" style="float:right" height="auto"/>
+      
+
+            <p style="float:right">
                 Hello, my name is Elaine Martinez. I am a full stack developer and UX/UI designer. I enjoy developing front end projects. 
             </p>
-            <button>
+
+            <button style="float:right">
                 Download Resume
             </button>
+            </div>
         </div>
     </section>
+   
 
-    <footer class="heroImg">
+    <footer class="footer">
         <ul>
-            <li class="inline-block">
+            <li id="FootLi" style="text-align:center">
                 About
             </li>
-            <li class="inline-block">
+            <li id="FootLi" style="text-align:center">
                 Skills
             </li>
-            <li class="inline-block">
+            <li id="FootLi">
                 Work
             </li>
-            <li class="inline-block">
+            <li id="FootLi">
                 Contact
             </li>
         </ul>

@@ -1,51 +1,80 @@
+*{
+    padding:0rem;
+    margin:0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #fef1ea;
-    font-family:Xanh Mono, Arial, Helvetica, sans-serif;
+    background-color: #f2ebdf;
     color:#ff6c4a;
 }
 
+header{
+   height:auto;
+    
+}
 
-.inline-block{
+#headshot{
+    float: right;
+}
+.content{
+    border: 2px solid red;
+    height: auto;
+    display: grid;
+    text-align: right;
+    float:right;
+
+}
+.mainBio{
+    padding: 3% 10%;
+}
+
+
+.NavBar{
+    float:right;
+    overflow: hidden;
+    border-bottom:3px solid red;
+    font-family: Xanh Mono, Arial, sans-serif;
+    
+}
+
+.NavBarLi{
     display: inline-block;
-    vertical-align: top;
+    padding:10px 20px;
+    justify-content: right;
+    
 }
 
 .logo{
-    width:23%;
-    padding:1%;
-    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
-nav{
-    width: 73%;
-    padding:1%;
-}
-
-ul{
-    width:50%;
-    margin-left:auto;
-}
-
+/*
 .heroImg{
     height:600px;
     padding:25px;
+}*/
+
+
+
+.footer{
+    margin-top:180px;
+    height:180px;
+    clear:both;
+    overflow: hidden;
+    border: 5px solid red;
+    height:150px;
+    
 }
 
-.content{
-    width:500px;
-    margin:0 auto;
+#FooterLi{
+    padding: 10px 120px;
+    display: block;
+    float:left;
+    padding:10px 160px;
+    
 }
 
-footer{
-    padding: center;
-    background-color: #f2ebdf
 
-}
-
-ul{
-    display:inline-block;
-    vertical-align: top;
-    padding:center;
-
-}
 
