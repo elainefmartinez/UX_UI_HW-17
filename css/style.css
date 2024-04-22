@@ -1,5 +1,5 @@
 *{
-    padding:0rem;
+    padding:0r;
     margin:0;
     box-sizing: border-box;
 }
@@ -10,6 +10,7 @@ body{
 }
 
 header{
+   
    height:auto;
     
 }
@@ -18,11 +19,13 @@ header{
     float: right;
 }
 .content{
-    border: 2px solid red;
+    
     height: auto;
+    display: inline-block;
     display: grid;
     text-align: right;
-    float:right;
+  
+    
 
 }
 .mainBio{
@@ -33,13 +36,12 @@ header{
 .NavBar{
     float:right;
     overflow: hidden;
-    border-bottom:3px solid red;
     font-family: Xanh Mono, Arial, sans-serif;
     
 }
 
 .NavBarLi{
-    display: inline-block;
+    display: inline;
     padding:10px 20px;
     justify-content: right;
     
@@ -54,27 +56,40 @@ header{
 .heroImg{
     height:600px;
     padding:25px;
-}*/
+
 
 
 
 .footer{
     margin-top:180px;
     height:180px;
-    clear:both;
     overflow: hidden;
     border: 5px solid red;
     height:150px;
     
 }
 
+
 #FooterLi{
     padding: 10px 120px;
-    display: block;
+    display: inline;
     float:left;
     padding:10px 160px;
     
+}*/
+
+
+.footer{
+   
+    height: 380px;;
+    float:right;
 }
 
 
+.FootLi{
+    display: inline;
+    padding:10px 20px;
+    justify-content: right;
+  
+}
 
