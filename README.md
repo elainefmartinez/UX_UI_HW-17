@@ -21,6 +21,7 @@ NA
 
 ## Screenshot:
 
+![Homepage](https://github.com/elainefmartinez/UX_UI_HW-17/assets/85318206/d7ed1209-4d20-4ccd-9991-3caf54d59b44)
 
 
 
